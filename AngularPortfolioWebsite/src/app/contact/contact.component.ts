@@ -8,6 +8,8 @@ import { Title } from '@angular/platform-browser';
 })
 export class ContactComponent {
 
+  email: string = 'petersen1994@gmail.com';
+
   constructor( private titleService: Title) {
     this.titleService.setTitle("Kayla Petersen - Contact");
   }

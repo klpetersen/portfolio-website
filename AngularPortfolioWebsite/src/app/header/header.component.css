@@ -1,4 +1,16 @@
 .jumbotron {
     padding: 2rem 1rem;
     background-color: #e9ecef;
+    position: relative;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
 }
